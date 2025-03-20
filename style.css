@@ -1,93 +1,90 @@
 /* Resetting some default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+  color: white;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 header p {
-    font-size: 1.2rem;
-    font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 section {
-    padding: 40px 0;
+  padding: 40px 0;
+  background-color: #101010;
+  color: white;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 ul {
-    list-style: none;
-    margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 
 ul li {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 .job {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .job h3 {
-    font-size: 1.5rem;
-    color: #333;
+  font-size: 1.5rem;
 }
 
 .job p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 a {
-    color: #0073e6;
-    text-decoration: none;
+  color: #0073e6;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
 }
 
 footer p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .contact ul li {
-    font-size: 1.1rem;
-    margin: 8px 0;
+  font-size: 1.1rem;
+  margin: 8px 0;
 }
